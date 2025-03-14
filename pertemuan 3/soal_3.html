@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029-Juan Christian T</title>
+</head>
+<body>
+    <form>
+        <table width="500" cellspacing="0" cellpadding="5" align="center" style="border-collapse: collapse; border: 2px solid black;">
+            <tr>
+                <th colspan="2" style="background-color: #ccc; font-size: 24px; border: none;">Personal Data</th>
+            </tr>
+            <tr>
+                <td><b>Name</b></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><b>Alamat</b></td>
+                <td><textarea name="alamat" rows="3" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><b>Jenis Kelamin</b></td>
+                <td>
+                    <input id="lk" type="radio" name="jk" value="Laki-laki">
+                    <label for="lk">Laki-laki</label>
+                    <br>
+                    <input id="pr" type="radio" name="jk" value="Perempuan">
+                    <label for="pr">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Tanggal Lahir</b></td>
+                <td><input type="datetime-local" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td><b>Jurusan</b></td>
+                <td>
+                    <select name="jurusan" multiple="multiple" size="3">
+                        <option>Teknik Informatika</option>
+                        <option>Sistem Informasi</option>
+                        <option>Elektro</option>
+                        <option>Sipil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Hobi</b></td>
+                <td>
+                    <table cellspacing="0" cellpadding="7" style="border-collapse: collapse; border: 1px solid black;">
+                        <tr>
+                            <td><input type="checkbox" name="hobi" value="Membaca"> Membaca</td>
+                            <td><input type="checkbox" name="hobi" value="Menulis"> Menulis</td>
+                            <td><input type="checkbox" name="hobi" value="Catur"> Catur</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="hobi" value="Voli"> Voli</td>
+                            <td><input type="checkbox" name="hobi" value="Badminton"> Badminton</td>
+                            <td><input type="checkbox" name="hobi" value="Golf"> Golf</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" style="border: none;">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

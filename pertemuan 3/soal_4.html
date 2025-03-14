@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029-Juan Christian T</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <table width="400" cellspacing="0" cellpadding="4" align="center" style="border-collapse: collapse; border: 2px solid black;">
+            <tr>
+                <td><h2>Form Tambah Data User</h2></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" required oninvalid="this.setCustomValidity('Name is required!!!')" oninput="setCustomValidity('')"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" id="address" required oninvalid="this.setCustomValidity('Address is required!!!')" oninput="setCustomValidity('')"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" required oninvalid="this.setCustomValidity('Harap isi bidang ini.')" oninput="setCustomValidity('')"></td>
+            </tr>
+            <tr>
+                <td>Home Page:</td>
+                <td><input type="url" id="homepage"></td>
+            </tr>
+            <tr>
+                <td>Birthday:</td>
+                <td><input type="date" id="birthday"></td>
+            </tr>
+            <tr>
+                <td>Favorite Color:</td>
+                <td><input type="color" id="color"></td>
+            </tr>
+            <tr>
+                <td>IPK:</td>
+                <td><input type="number" id="ipk" min="0" max="4" step="0.1" value="0"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" id="phone" pattern="\d{3}-\d{7,10}" placeholder="###-#######"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><button type="submit">Add</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
