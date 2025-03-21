@@ -1,0 +1,68 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 0;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    border: 2px dotted white;
+    width:700px;
+    gap: 3px;
+}
+
+.nav-bar li {
+    position: relative;
+    padding: 4px 50px;
+    border: 2px dotted grey;
+    text-align: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+
+.nav-bar a:hover {
+    background-color: black;
+    color: white;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    background: white;
+    border: 2px dotted grey;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 10px;
+    text-align: center;
+}
+
+.submenu a {
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: black;
+    color: white;
+}

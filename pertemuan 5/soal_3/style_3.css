@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 21px; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden; 
+}
+
+.header {
+    background-color: red;
+    color: red;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: blue;
+    color: blue;
+    width: 18%;
+    float: left;
+    padding: 20px;
+    height: 300px;
+    margin-right: 10px; 
+}
+
+.content {
+    background-color: green;
+    color: black;
+    width: 48%; 
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+.ads {
+    background-color: yellow;
+    color: yellow;
+    width: 30%; 
+    height: 240px; 
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+}
+
+.clearfix {
+    clear: both; 
+}
