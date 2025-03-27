@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    appearance: textfield; 
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none; 
+}
+
+.pyramid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+}
+
+.filled {
+    background-color: orange;
+    border-color: #fff;
+}

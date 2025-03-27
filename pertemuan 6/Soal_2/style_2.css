@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 2px solid black; 
+}
+
+td {
+    padding: 10px;
+    border: 2px solid black; 
+    text-align: center;
+    font-size: 18px;
+    min-width: 40px;
+    font-weight: bold;
+}

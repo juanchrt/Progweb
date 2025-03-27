@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029-Juan Christian T</title>
+    <link rel="stylesheet" href="style_4.css">
+</head>
+<body>
+    <div class="container">
+        <label for="inputNumber"><b>Input :</b></label>
+        <input type="text" id="inputNumber" placeholder="Masukkan angka" oninput="validateInput()">
+        
+        <label for="outputNumber"><b>Output :</b></label>
+        <input type="text" id="outputNumber" readonly>
+
+        <select id="conversionType" onchange="resetFields()">
+            <option value="decimal-biner">Decimal - Biner</option>
+            <option value="biner-decimal">Biner - Decimal</option>
+        </select>
+
+        <button onclick="convertNumber()">PROSES</button>
+        <button onclick="resetFields()">RESET</button>
+    </div>
+
+    <script src="script_4.js"></script>
+</body>
+</html>
