@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 500px;
+    text-align: center;
+    border-color: white;
+}
+
+th, td {
+    padding: 8px 12px;
+}
+
+.header {
+    background-color: #99a299;
+}
+
+.row1, .row3, .row5 {
+    background-color: #b6d3ff;
+}
+
+.row2, .row4 {
+    background-color: #ffc99c;
+}
+
+.c3 {
+    background-color: #a6eb78
+}

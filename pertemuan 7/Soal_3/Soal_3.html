@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029-Juan Christian T</title>
+    <link rel="stylesheet" href="style_3.css">
+</head>
+<body>
+    <div class="container">
+        <label>Data</label>
+        <input type="text" id="dataInput">
+        <button onclick="addData()">Add</button>
+
+        <select id="operation" onchange="performOperation()">
+            <option value="">Pilih Operasi</option>
+            <option value="display">Display</option>
+            <option value="count">Count</option>
+            <option value="sum">Sum</option>
+            <option value="average">Average</option>
+            <option value="max">Max</option>
+            <option value="min">Min</option>
+            <option value="odd">Ganjil</option>
+            <option value="even">Genap</option>
+            <option value="clear">Hapus</option>
+        </select>
+
+        <br><br>
+        <label>Hasil</label>
+        <input type="text" id="result" readonly>
+    </div>
+
+    <script src="script_3.js"></script>
+</body>
+</html>

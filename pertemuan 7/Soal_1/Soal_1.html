@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029-Juan Christian T</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <div class="container">
+        <label for="judul">Judul :</label>
+        <input type="text" id="judul" name="judul"><br><br>
+
+        <label for="deskripsi">Deskripsi:</label>
+        <textarea id="deskripsi" name="deskripsi" rows="5" cols="30"
+                  onkeyup="call_onKeyPress(this)" onkeydown="call_onKeyPress(this)">
+        </textarea>
+        <br>
+        <div class="counter">
+            <input type="text" id="txt2" value="0/256" readonly>
+        </div>
+    </div>
+    <script src="script_1.js"></script>
+</body>
+</html>
