@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029 Juan Christian T</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          color: #ffffff;
+        }
+        ol.main-menu {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          background-color: white;
+          border: 1px solid #ccc;
+          position: relative;
+        }
+        ol.main-menu > li {
+          position: relative;
+          background: #fd389a;
+          padding: 5px 15px;
+          cursor: pointer;
+          margin-right: 5px;
+        }
+        ol.main-menu li ol {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: white;
+          border: 2px solid #fd389a;
+          padding: 5px;
+        }
+        ol.main-menu li ol li {
+          list-style: none;
+          margin: 0;
+          padding: 2px 0;
+        }
+        ol.main-menu li ol li a {
+          text-decoration: underline;
+          color: black;
+        }
+      </style>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script src="Script_1.js" defer></script>
+    </head>
+    <body>
+    
+    <ol class="main-menu">
+      <li>jQuery
+        <ol>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Blog</a></li>
+        </ol>
+      </li>
+      <li>Community
+        <ol>
+          <li><a href="#">Mailing List</a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Demos</a></li>
+          <li><a href="#">Plugins</a></li>
+        </ol>
+      </li>
+      <li>Development
+        <ol>
+          <li><a href="#">Source Code</a></li>
+          <li><a href="#">Bug Tracking</a></li>
+          <li><a href="#">Recent Changes</a></li>
+        </ol>
+      </li>
+    </ol>
+    
+    </body>
+    </html>
