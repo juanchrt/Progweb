@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029_Juan Christian T</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Script_1.js" defer></script>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 70%;
+    }
+    thead {
+        background-color: #000000;
+        color: #000000;
+    }
+    th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #FFFFCC;
+    }
+    tr:nth-child(even) {
+      background-color: #CCFFAA;
+    }
+  </style>
+</head>
+<body>
+  <h2>Daftar Mahasiswa Pemrograman Web TA 2023/2024</h2>
+  
+  <label><input type="radio" name="kelas" value="A"> Kelas A</label>
+  <label><input type="radio" name="kelas" value="B"> Kelas B</label>
+  <label><input type="radio" name="kelas" value="semua" checked> Semua</label>
+  
+  <button id="search">Search</button>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>NRP</th>
+        <th>Nama</th>
+        <th>Nilai Akhir</th>
+        <th>Kelas</th>
+      </tr>
+    </thead>
+    <tbody id="hasil"></tbody>
+  </table>
+</body>
+</html>

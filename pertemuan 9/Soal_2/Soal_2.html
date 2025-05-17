@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2373029_Juan Christian T</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Script_2.js" defer></script>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    #box {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 400px;
+    }
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #output {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    h2 {
+      text-align: center;
+      color: darkblue;
+    }
+    .course {
+      margin-bottom: 20px;
+    }
+    .footer {
+      border-top: 1px solid gray;
+      text-align: left;
+      padding-top: 5px;
+      font-size: small;
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+    <input type="text" id="title" placeholder="Title" />
+    <input type="text" id="content" placeholder="Content" />
+    <input type="text" id="generator" placeholder="Generator" />
+    <button id="look">Look</button>
+    <pre id="jsonText" style="border:1px solid #ccc; padding:10px; background:#f9f9f9;"></pre>
+  </div>
+
+  <div id="output"></div>
+</body>
+</html>
